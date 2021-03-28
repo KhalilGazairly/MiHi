@@ -1,0 +1,430 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.nav
+{
+    height: 900px;
+    background-image: url(backlit-clouds-dusk-853168.jpg);
+    background-size: 100% 100%;
+    
+}
+.navbar ul
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    list-style-type: none;
+    overflow: auto;
+}
+.navbar ul li
+{
+    float: right;
+    margin-right: 30px;
+    padding-top:20px;
+
+}
+.navbar ul li a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+ .logo h1
+{
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Pattaya', sans-serif;
+    color: #0373CC;
+
+}
+.navbar .logo
+{
+    float: left;
+    padding-top: 0px; 
+}
+.nav .caption
+{
+    text-align: center;
+    padding-top: 10px;
+}
+.caption .mi
+{
+    font-family: 'Arapey', serif;
+    margin-top: 5px;
+    color: #0373CC;
+}
+.caption .hi
+{
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.caption h1
+{
+    margin-top: 200px;
+    color: honeydew;
+    padding: 20px;
+    font-family: 'Arapey', serif;
+    font-size: 60px;
+}
+.caption p
+{
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.nav .btns
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.nav .btns button
+{
+    padding: 15px 30px;
+    border: none;
+    margin-right: 10px;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.nav .btns .LEARN
+{
+    background-color: #0373CC;
+    color: rgb(255, 255, 255);
+}
+.container
+{
+    background-color:#0373CC;
+    overflow: hidden;
+}
+.container .mihii
+{
+    width: 40%;
+    background-color: blueviolet;
+}
+.container .mihii img
+{
+    margin-top: 40px;
+    width: 100%;
+    float: left;
+
+}
+.container .who
+{
+    width: 60%;
+    float: left;
+    background-color:#0373CC;
+    text-align: center;
+    padding: 180px 0px;
+}
+.clr
+{
+    clear: both;
+}
+.container .who h2
+{
+    color:#f2ce08;
+    font-weight: 600;
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+}
+.container .who p
+{
+    color: aliceblue;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    padding: 30px;
+}
+.container .who button
+{
+    padding: 15px ;
+    border-radius: 5px;
+    border: 2px solid #231f20;
+    background-color: rgb(255, 199, 44);
+    color:#000000;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.eve
+{
+    height: 350px;
+    background-image: url(unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.seerv
+{
+    background-color: #0373CC;
+    height: 500px;
+}
+.seerv h1
+{
+    text-align: center;
+    padding: 50px ;
+    color: aliceblue;
+    font-family: 'Arapey', serif;
+
+
+}
+.seerv .serv
+{
+    padding-top: 20px;
+    width:24.5%;
+    text-align: center;
+    float: left;
+    margin: auto;
+}
+.seerv .serv h2
+{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Italianno', cursive;
+    color:#f2ce08;
+    font-weight: 900;
+}
+.seerv .serv p
+{
+    
+    color: aliceblue;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+.drdr
+{
+    margin: auto;
+    width: 24.5%;
+    height: 2px;
+    background-color: rgb(199, 198, 252);
+}
+.seerv h3
+{
+    font-size: 30px;
+    font-family: 'Arapey', serif;
+    color:#f2ce08;
+    font-weight: 900;
+    text-align: center;
+    margin: 50px;
+    padding-top: 180px;
+}
+.join
+{
+    height: 900px;
+    background-color: #000000;
+    overflow: auto;
+
+}
+.join .intern
+{
+    width: 40%;
+    float: left;
+}
+.join .intern img
+{
+    width: 100%;
+}
+.join .come
+{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.join .come h2
+{
+    padding: 70px;
+    margin-top: 100px;
+    color:#f7cc10;
+    font-weight: 600;
+    font-family: 'Arapey', serif;
+    font-size: 35px;
+
+}
+.join .come p 
+{
+    padding: 30px;
+    color: aliceblue;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+.join .come ul
+{
+    list-style-type: none;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.join .come li
+{
+    color: aliceblue;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.join .come button
+{
+    padding: 15px ;
+    border-radius: 5px;
+    border: 2px solid #ffbf0e;
+    background-color: #0373CC;
+    color: rgb(255, 255, 255);
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.news
+{
+    height: 700px;
+    background-color: #0373CC;
+    margin: auto;
+    text-align: center;
+}
+.news h2
+
+{
+    font-size: 40px;
+    padding: 50px ;
+    color: aliceblue;
+    font-family: 'Arapey', serif;
+    font-weight: 900;
+}
+.news .rus
+{
+
+}
+.news .rus h3
+{
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Pompiere', cursive;
+    color:#f2ce08;
+    font-weight: 900;
+}
+.news .rus  .too
+{
+    margin: 0px 15px ;
+}
+.news .rus p
+{
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+.news .rus .even
+{
+    height: 40%;
+    border-radius: 20px;
+}
+.news .rus img
+{
+    height: 20px;;
+    border-radius: 20px;
+}
+.map
+{
+    height:250px;
+    background-color: #000000;
+    background-image: url(world_map_PNG28.png);
+    margin: auto;
+    text-align: left;
+}
+.map h4
+{
+    padding-top:40px ;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color:#ffffff;
+    font-weight: 900;
+    font-family: 'Arapey', serif;
+}
+.map p , .map ul
+{
+    padding: 20px 40px 40px 40px;
+    font-family: 'Arapey', serif;
+    color: #0373CC;
+
+}
+.map ul
+{
+    list-style-type: circle;
+}
+.map ul li
+{
+    padding-bottom: 10px;
+}
+.map ul li a
+{
+    text-decoration: none;
+    color: #0373CC;
+
+}
+.map .one 
+{
+    float: left;
+    width: 31%;
+
+}
+.map .two 
+{
+    padding-left: 20px;
+    float: left;
+    width: 31%;
+}
+.map .three 
+{
+    float: left;
+    width: 31%;
+}
+.map .brdr
+{
+    background-color: rgb(28, 22, 44);
+    margin-top: 4px;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 300px;
+    height: 2px;;
+}
+.footer
+{
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+
+}
+.footer .social
+{
+    float: right;
+    padding: 30px 250px 10px 30px;
+    
+}
+.footer .social ul li
+{
+    list-style-type: none;
+    float: left;
+}
+.footer .social img
+{
+    height: 30px;
+    border-radius: 50%;
+}
+.footer .txxt
+{
+    font-size: 16px;
+    color:#ffffff;
+    font-weight: 300;
+    font-family: 'Arapey', serif;
+    float: left;
+    padding: 30px 50px 10px 30px;
+
+}

@@ -1,0 +1,353 @@
+/*     
+
+background-color: #0373CC;
+#ffbf0e
+
+*/
+
+{
+    padding: 0;
+    margin: 0;
+}
+ .home
+{
+
+    height: 700px;
+    text-align: center;
+    background-image: url("images/pexels-ph3.jpeg");
+    background-size: 100% 100%;
+    background-position: center; 
+}
+.layer
+{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+}
+
+
+.navbar-nav .nav-link 
+{
+    padding: 20px 30px;
+}
+.navbar-nav .nav-link:hover
+{
+    background-color: #ffbf0e;
+    border-radius: 5px;
+    color: #fff;
+}
+.navbar-nav .nav-link a
+{
+    text-decoration: none;
+    
+}
+
+
+/* ----- section Home */
+/* ----- section Home */
+/* ----- section Home */
+
+
+.home .mi
+{
+    font-family: 'Arapey', serif;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    color: #0373CC;
+    font-size: 60px;
+}
+/* ----- text moving */
+
+#typed
+{
+    margin-top: 120px;
+    color: #ffbf0e;
+    padding: 20px;
+    font-family: 'Farsan', cursive;
+    font-size: 60px;
+    text-shadow: 2px 2px #0373CC;
+}
+
+
+/* ----- section Home button scroll */
+
+
+.scrllo
+{
+  margin: auto;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #0373CC;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  margin-top: 175px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+    }}  
+    .clr
+{
+    clear: both;
+}
+
+  /* ----- section abut start */  
+    
+#about
+    {
+        position: relative;     
+        background-color: #0373CC; 
+        height: 700px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+#about .mihii
+{
+    width: 40%;
+    background-color: blueviolet;
+}
+#about .mihii img
+{
+    margin-top: 40px;
+    width: 100%;
+    float: left;
+
+}
+#about .who
+{
+    float: left;
+    background-color:#0373CC;
+    text-align: center;
+    padding: 160px 0px;
+}
+#about .who h2
+{
+    color:#f2ce08;
+    font-weight: 600;
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+}
+#about .who p
+{
+    color: aliceblue;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    padding: 30px;
+}
+#about .who button
+{
+    cursor: pointer;
+    padding: 15px ;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: #0373CC;
+    color:#fff;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+    #about .who button:hover
+{
+    padding: 15px ;
+    border-radius: 5px;
+    border: 2px solid #231f20;
+    background-color: rgb(255, 199, 44);
+    color:#000000;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+    
+    
+/* -------------------------------- section about end --------------------------------- */
+
+
+
+
+
+/* ---------------------------------------- section Events Start---------------------------- */
+
+.events
+{
+    position: relative;
+    background-color: rgb(255, 199, 44);
+}
+.events .swiper-container
+{
+      width: 100%;
+      height: 100%;
+    position: relative;
+}
+.eventh
+{
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+.eventh:after
+{
+    content: "";
+    background-color:  #0373CC;
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    top: 63%;
+    left: 5%;
+}
+.eventh:before
+{
+    content: "";
+    background-color:  #0373CC;
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    top: 63%;
+    right: 5%;
+}
+/* ---------------------------------------- swiper ------------------------- */
+
+.swiper-slide
+{    
+      text-align: center;
+      font-size: 18px;
+      background: rgb(255, 199, 44);
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+}
+.swiper-pagination-bullet
+{
+    margin-bottom: 80px;
+}
+.swiper-slide img
+{
+    position: relative;
+    width: 90%;
+    height: 95%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.captionslid
+{
+    position: absolute;
+    background-color: rgba(3,115,204,0.5);
+     width: 90%;
+    height:95%;
+    border-radius: 10px;
+    color: #fff;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.swiper-slide:hover .captionslid
+{
+    opacity: 1;
+}
+
+
+.captionslid h3
+{
+    background: rgba(3,115,204,0.7);
+    padding: 50px;
+}
+.captionslid p
+{
+    margin: 70px;
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 8  px;
+}
+
+.captionslid button
+{
+     cursor: pointer;
+    padding: 10px ;
+    border: 2px solid #0373CC;
+    background-color: rgb(256,256,256);
+    color:#0373CC;
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+    margin-top: 10px;
+}
+.captionslid button:hover
+{
+    border: 2px solid rgb(255, 199, 44);
+    color: rgb(255, 199, 44);
+}
+
+/* ----- section Home end */
